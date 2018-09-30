@@ -135,7 +135,7 @@ a:hover {
 
 .cardPortfolio{
    height: 183px;
-   background-color: url("media/images/mathgame.png");
+   background-color:silver;
     color:black;
     border: 5px solid white;
     border-radius: 6px;
@@ -150,6 +150,30 @@ h4{
    font-size: 1rem;
    text-align: right;
    margin-bottom: -100px;
+}
+
+.pPortfolio{
+    border-radius: 3px;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    margin-top: 2rem;
+   
+    
+}
+
+/*CONTACT*/
+
+.pContact{
+    font-family: 'Mandali', sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+form{
+    font-family: 'Mandali', sans-serif;
+    font-size: 1rem;
+     margin: 80px;
 }
 
 
