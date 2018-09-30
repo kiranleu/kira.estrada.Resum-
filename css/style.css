@@ -1,0 +1,173 @@
+/* #######################################                NavBar              ###########################################*/
+
+#buttonNav {
+    border-radius: 20%;
+    background-color: lightgrey;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 80px;
+
+}
+
+.navbar {
+    background-color: #111111;
+    color: white;
+    font-family: 'Mandali', sans-serif;
+    font-size: 1rem;
+    margin-top: 40px;
+
+}
+
+.nav-item {
+    margin-bottom: 8px;
+    margin-right: 0px;
+}
+
+.logo {
+    font-family: 'Megrim', cursive;
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+
+a {
+    color: #DDDDDD;
+}
+
+a:hover {
+    color: grey;
+}
+
+.nav-item {
+    display: inline;
+    font-family: 'Mandali', sans-serif;
+    font-size: 1.4rem;
+    padding-right: 40px;
+
+}
+
+/* #######################################             Body     ###########################################*/
+
+.bodyAboutMe,
+.bodyPortfolio,
+.bodySkills {
+    background-color: #DDDDDD;
+}
+
+
+/*HOMEPAGE*/
+
+.name {
+    font-family: 'Megrim', cursive;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.qualName {
+    color: white;
+    font-family: 'Mandali', sans-serif;
+    font-size: 3rem
+}
+/*ABOUT ME*/
+
+.titleAboutMe{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    
+    
+}
+
+.btn-cv{
+    height: 100px;
+   padding-left :0px;
+   text-align: right;
+   width: 600px;
+  
+}
+.textAboutMe{
+    font-family: 'Mandali', sans-serif;
+    font-size: 1.2rem;
+    margin: 40px;
+    text-align: justify;
+    
+    
+    
+}
+/* #######################################    Video and Images                ###########################################*/
+
+/*HOMEPAGE*/
+
+.bodyHomepage {
+    margin: 0px;
+    background: #000;
+}
+
+#bg_container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#bg {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#content {
+    color: lightgrey;
+    height: 10px;
+    opacity: 1;
+    position: absolute;
+    padding: 90px;
+    top: 550px;
+
+
+
+    text-shadow: #000 2px 2px;
+}
+
+/*ABOUT ME*/
+
+.myPict{
+    border-radius:400px;
+    border-image: 30 round;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 250px;
+    
+}
+
+/* #######################################              Footer             ###########################################*/
+
+footer{
+    background-color: black;
+}
+i:hover {
+    background-color: lightgrey;
+}
+
+.fb-ic{
+    padding-right: 30px;
+    border-radius: 40px;
+}
+.li-ic{
+    padding-left: 20px;
+    text-align: center;
+}
+.twi-ic {
+    padding-right: 30px;
+    text-align-last: center;
+}
+
+h5 {
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
