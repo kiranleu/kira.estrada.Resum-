@@ -4,13 +4,12 @@
 
 /* #######################################                NavBar              ###########################################*/
 
-#buttonNav {
+.fa-fa-bars {
     border-radius: 20%;
-    background-color: lightgrey;
-    font-size: 40px;
-    height: 45%;
-    width: 45%;
-    margin: 10px 20px 0px 10px;
+    border-style: 12px solid white;
+    color:silver;
+
+  
 
 }
 
