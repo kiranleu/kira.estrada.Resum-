@@ -1,12 +1,16 @@
+
+
+
+
 /* #######################################                NavBar              ###########################################*/
 
 #buttonNav {
     border-radius: 20%;
     background-color: lightgrey;
-    font-size: 20px;
-    height: 50px;
-    text-align: center;
-    width: 80px;
+    font-size: 40px;
+    height: 45%;
+    width: 45%;
+    margin: 10px 20px 0px 10px;
 
 }
 
@@ -48,9 +52,13 @@ a:hover {
 
 /* #######################################             Body     ###########################################*/
 
+/* All the pages of Website */
+
 .bodyAboutMe,
 .bodyPortfolio,
-.bodySkills {
+.bodySkills, 
+.bodyContact
+{
     background-color: #DDDDDD;
 }
 
@@ -118,31 +126,34 @@ a:hover {
 }
 
 .card{
-    height: 183px;
+    
     background:white;
     border: 1px solid silver;
     border-radius: 8px;
     box-shadow: 2px 2px silver;
+    height: 100%;
     padding: .5rem;
-    margin-bottom: 10px;
-    
-    
-   
-    width: 231px;
+    width: 100%;
 }
+
 
 /*PORTFOLIO*/
 
 .cardPortfolio{
-   height: 183px;
+   height: 100%;
    background-color:silver;
-    color:black;
+    
     border: 5px solid white;
     border-radius: 6px;
     box-shadow: 0 1px 2px black;
-    padding: 2.5rem;
-    margin: 1rem;
-    width: 431px;
+    color:black;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+.containerPortfolio{
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 h4{
@@ -162,18 +173,22 @@ h4{
     
 }
 
+.aBlack{
+    color:black;
+}
 /*CONTACT*/
 
 .pContact{
-    font-family: 'Mandali', sans-serif;
-    font-size: 40px;
-    margin-top: 40px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 20px;
+    margin-left: 4.7rem;
+    margin-top: 2rem;
 }
 
 form{
     font-family: 'Mandali', sans-serif;
     font-size: 1rem;
-     margin: 80px;
+     margin: 40px 80px;
 }
 
 
@@ -205,21 +220,18 @@ form{
     opacity: 1;
     position: absolute;
     padding: 90px;
-    top: 550px;
+    top: 350px;
     text-shadow: #000 2px 2px;
 }
 
 /*ABOUT ME*/
 
 .myPict{
-    border-radius:400px;
-    border-image: 30 round;
-    height: 250px;
-    margin-top: 30px;
-    margin-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    width: 250px;
+    border-radius: 10px;
+    border-image: 30px solid black;
+    height: 400px;
+    width: 300px;
+    margin: 10px 60px 0px;
     
 }
 
@@ -251,27 +263,119 @@ form{
 /* #######################################              Footer             ###########################################*/
 
 footer{
+   
     background-color: black;
+     padding-top: 20px;
+     padding-left: 1rem;
+     padding-right: 1rem;
 }
 i:hover {
     background-color: lightgrey;
 }
 
-.fb-ic{
-    padding-right: 30px;
-    border-radius: 40px;
-}
+.fb-ic,
+.twi-ic,
 .li-ic{
-    padding-left: 20px;
-    text-align: center;
+   
+   
+    padding: 10px 20px 0px ;
 }
-.twi-ic {
-    padding-right: 30px;
-    text-align-last: center;
-}
+
 
 h5 {
     text-align: center;
     padding-right: 20px;
     padding-bottom: 10px;
+}
+
+
+/* #######################################           Hover Effects           ###########################################*/
+
+/* Bounce In */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+/* Wobble Bottom */
+@-webkit-keyframes hvr-wobble-bottom {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes hvr-wobble-bottom {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.hvr-wobble-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+.hvr-wobble-bottom:hover, .hvr-wobble-bottom:focus, .hvr-wobble-bottom:active {
+  -webkit-animation-name: hvr-wobble-bottom;
+  animation-name: hvr-wobble-bottom;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
