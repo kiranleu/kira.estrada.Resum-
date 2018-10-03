@@ -16,6 +16,7 @@
 .navbar {
     background-color: #111111;
     color: white;
+    position:fluid;
     font-family: 'Mandali', sans-serif;
     font-size: 1rem;
     margin-top: 40px;
@@ -30,7 +31,8 @@
 .logo {
     font-family: 'Megrim', cursive;
     font-weight: bolder;
-    font-size: 2.3rem;
+    font-size: 2.1rem;
+    padding-left: 20px;
 }
 
 a {
@@ -68,31 +70,49 @@ a:hover {
     font-family: 'Megrim', cursive;
     font-size: 5rem;
     font-weight: bolder;
+    
 }
 
 .qualName {
     color: white;
     font-family: 'Mandali', sans-serif;
-    font-size: 3rem
+    font-size: 3rem;
+    
 }
+
+.qualName,
+.name{
+    padding-left: 30%;
+    text-align: inherit
+}
+
 /*ABOUT ME*/
 
 .titleAboutMe{
     font-family: 'Cabin Sketch', cursive;
     font-size: 50px;
     margin-top: 50px;
+    margin-left: 50px;
     text-align: center;
     
     
 }
 
-.btn-cv{
-    height: 100px;
-   padding-left :0px;
-   text-align: right;
-   width: 600px;
-  
+.cv-btn{
+    
+   color:white;
+    font-family: 'Mandali', sans-serif;
+    padding: 10px;
+ 
 }
+ 
+#buttonC{
+    margin-bottom: 30px;
+     margin-left: 50px;
+    
+}
+  
+
 .textAboutMe{
     font-family: 'Mandali', sans-serif;
     font-size: 1.2rem;
@@ -127,12 +147,19 @@ a:hover {
 .card{
     
     background:white;
-    border: 1px solid silver;
-    border-radius: 8px;
+    border: 3px solid silver;
+    border-radius: 50px;
     box-shadow: 2px 2px silver;
     height: 100%;
     padding: .5rem;
     width: 100%;
+    
+    
+}
+
+.superContainer{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -141,7 +168,6 @@ a:hover {
 .cardPortfolio{
    height: 100%;
    background-color:silver;
-    
     border: 5px solid white;
     border-radius: 6px;
     box-shadow: 0 1px 2px black;
@@ -150,9 +176,12 @@ a:hover {
     padding-bottom: 2rem;
     width: 100%;
 }
+
+
 .containerPortfolio{
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 140px;
+    margin-top: 140px;
+    
 }
 
 h4{
@@ -169,12 +198,15 @@ h4{
     background-color: white;
     margin-top: 2rem;
    
+   
     
 }
 
 .aBlack{
     color:black;
 }
+
+
 /*CONTACT*/
 
 .pContact{
@@ -205,6 +237,7 @@ form{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+   
 }
 
 #bg {
@@ -267,6 +300,13 @@ footer{
      padding-top: 20px;
      padding-left: 1rem;
      padding-right: 1rem;
+     position: fluid;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     color: grey;
+     text-align: center;
+     
 }
 i:hover {
     background-color: lightgrey;
@@ -287,6 +327,9 @@ h5 {
     padding-bottom: 10px;
 }
 
+.listContact{
+    font-family: 'Mandali', sans-serif;
+}
 
 /* #######################################           Hover Effects           ###########################################*/
 
