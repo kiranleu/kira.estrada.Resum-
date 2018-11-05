@@ -74,7 +74,7 @@ a:hover {
 }
 
 
-/*HOMEPAGE*/
+/***********************HOMEPAGE************************/
 
 .name {
     font-family: 'Megrim', cursive;
@@ -93,11 +93,11 @@ a:hover {
 
 .qualName,
 .name{
-    padding-left: 30%;
+    
     text-align: inherit
 }
 
-/*ABOUT ME*/
+/***************************ABOUT ME**********************/
 
 .titleAboutMe{
     font-family: 'Cabin Sketch', cursive;
@@ -133,7 +133,7 @@ a:hover {
     
 }
 
-/*SKILLS*/
+/****************************SKILLS*******************/
 
 .titleSkills{
      font-family: 'Mandali', sans-serif;
@@ -174,7 +174,7 @@ a:hover {
 }
 
 
-/*PORTFOLIO*/
+/******************************PORTFOLIO*************************/
 
 .cardPortfolio{
    height: 100%;
@@ -218,7 +218,7 @@ h4{
 }
 
 
-/*CONTACT*/
+/*********************************CONTACT***************************/
 
 .pContact{
     font-family: 'Cabin Sketch', cursive;
@@ -226,7 +226,11 @@ h4{
     margin-left: 4.7rem;
     margin-top: 2rem;
 }
-
+ 
+ #icons_contact .col-sm-3 .text-align-right{
+    margin-right: 5.9rem
+}
+    
 form{
     font-family: 'Mandali', sans-serif;
     font-size: 1rem;
@@ -236,7 +240,7 @@ form{
 
 /* #######################################    Video and Images                ###########################################*/
 
-/*HOMEPAGE*/
+/***********************HOMEPAGE***********************/
 
 .bodyHomepage {
     margin: 0px;
@@ -246,14 +250,14 @@ form{
 #bg_container {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     overflow: hidden;
    
 }
 
 #bg {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
 
 }
 
@@ -267,7 +271,7 @@ form{
     text-shadow: #000 2px 2px;
 }
 
-/*ABOUT ME*/
+/**************************ABOUT ME****************/
 
 .myPict{
     border-radius: 10px;
@@ -278,8 +282,15 @@ form{
     
 }
 
-/*SKILLS*/
+/************************SKILLS*******************/
 
+.card{
+        padding-bottom: 5rem
+}
+
+.superContainer .col-sm-3{
+        padding-top: 15px;
+}
 .card img{
     display: block;
     margin: 0 auto;
@@ -303,20 +314,23 @@ form{
    
 }
 
+.card_skill{
+        margin-bottom: 20px;
+}
 /* #######################################              Footer             ###########################################*/
 
 footer{
    
     background-color: black;
-     padding-top: 20px;
-     padding-left: 1rem;
-     padding-right: 1rem;
-     position: fluid;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     color: grey;
-     text-align: center;
+    padding-top: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: fluid;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
      
 }
 i:hover {
@@ -336,6 +350,11 @@ h5 {
     text-align: center;
     padding-right: 20px;
     padding-bottom: 10px;
+}
+
+.fa-envelope,
+.fa-phone{
+    margin-right: 10%;
 }
 
 .listContact{
