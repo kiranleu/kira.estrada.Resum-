@@ -254,14 +254,15 @@ form{
 #bg_container {
     position: relative;
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     overflow: hidden;
+    margin: 0px;
    
 }
 
 #bg {
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
 
 }
 
