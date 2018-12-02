@@ -1,7 +1,3 @@
-
-
-
-
 /* #######################################                NavBar              ###########################################*/
 
 .fa-fa-bars {
@@ -25,11 +21,13 @@
     
 }
 .navbar {
-    background-color: #111111;
+    background-color:#212121;
     color: white;
     font-family: 'Mandali', sans-serif;
     font-size: 1rem;
-    margin-top: 40px;
+    padding: 0;
+    margin: 0;
+  
 
 }
 
@@ -39,10 +37,12 @@
 }
 
 .logo {
+    display: inline-block;
     font-family: 'Megrim', cursive;
     font-weight: bolder;
     font-size: 2.1rem;
     padding-left: 20px;
+    
 }
 
 a {
@@ -109,18 +109,18 @@ a:hover {
     
 }
 
-.cv-btn{
-    
-   color:white;
+.btn-outline-light {
+    color:#212121 ;
+    background-color: silver;
+    background-image: none;
+    border-color: #212529;
+
     font-family: 'Mandali', sans-serif;
-    padding: 10px;
- 
+
 }
  
-#buttonC{
-    margin-bottom: 30px;
-     margin-left: 50px;
-    
+#buttonC {
+     margin-bottom: 30px;
 }
   
 
@@ -158,11 +158,8 @@ a:hover {
 .card{
     
     background:white;
-    border: 3px solid silver;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 2px 2px silver;
-    height: 100%;
-    padding: .5rem;
     width: 100%;
     
     
@@ -172,6 +169,7 @@ a:hover {
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+
 
 
 /******************************PORTFOLIO*************************/
@@ -188,6 +186,11 @@ a:hover {
     width: 100%;
 }
 
+.card-img{
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
 
 .containerPortfolio{
     margin-bottom: 140px;
@@ -245,19 +248,20 @@ form{
 .bodyHomepage {
     margin: 0px;
     background: #000;
+    line-height:0;
 }
 
 #bg_container {
     position: relative;
     width: 100vw;
-    height: 80vh;
+    height: 60vh;
     overflow: hidden;
    
 }
 
 #bg {
     width: 100vw;
-    height: 80vh;
+    height: 50vh;
 
 }
 
@@ -321,7 +325,7 @@ form{
 
 footer{
    
-    background-color: black;
+    background-color: #212121;
     padding-top: 20px;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -333,9 +337,7 @@ footer{
     text-align: center;
      
 }
-i:hover {
-    background-color: lightgrey;
-}
+
 
 .fb-ic,
 .twi-ic,
