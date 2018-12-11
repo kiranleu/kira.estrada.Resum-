@@ -1,5 +1,19 @@
 /* #######################################                NavBar              ###########################################*/
 
+@media (min-width: 768px)
+.col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+@media (min-width: 576px)
+.col-sm-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
 .fa-fa-bars {
     border-radius: 20%;
     border-style: 12px solid white;
@@ -118,9 +132,11 @@ a:hover {
 }
  
 #buttonC {
-     margin-bottom: 30px;
+    margin-bottom: 32px;
+    margin-left: 50px;
+    height: 10;
+    border-color: black;
 }
-  
 
 .textAboutMe{
     font-family: 'Mandali', sans-serif;
@@ -159,27 +175,31 @@ a:hover {
     border-radius: 10px;
     box-shadow: 2px 2px silver;
     width: 100%;
+    height: 0px;
     
     
 }
 
-.superContainer{
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-}
 
+
+.superContainer .col-sm-3 {
+        padding-top: 42px;
+    padding-bottom: 31px;
+
+}
 
 
 /******************************PORTFOLIO*************************/
 
 .cardPortfolio{
-    height: 50%;
+    /*height: 50%;*/
     background-color:silver;
     border-radius: 6px;
     box-shadow: 0 1px 2px black;
     color:black;
     width: 100%;
-}
+
+    margin-bottom: 100px;}
 
 .card.img {
  position: absolute;
@@ -188,11 +208,12 @@ a:hover {
  bottom: 0;
  left: 0;
  padding: 1.25rem;
-}
+height: 100%;}
 
 .card-img{
-    height: 100%;
+    
     width: 100%;
+    height: 170px;
     padding-top: 0px;
 }
 
@@ -240,6 +261,15 @@ form{
     font-size: 1rem;
      margin: 40px 80px;
 }
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-top: 37px;
+    text-align: center;
+    margin-left: 232px;
+    border-color: black;
+}
+
 
 
 /* #######################################    Video and Images                ###########################################*/
@@ -291,7 +321,9 @@ form{
 /************************SKILLS*******************/
 
 .card{
-        padding-bottom: 5rem
+        padding-bottom: 5rem;
+        height: 128px;
+    width: 10;
 }
 
 .superContainer .col-sm-3{
@@ -331,12 +363,14 @@ footer{
     padding-top: 20px;
     padding-left: 1rem;
     padding-right: 1rem;
-    position: fluid;
+   /* position: fixed;*/
     left: 0;
     bottom: 0;
     width: 100%;
     color: grey;
     text-align: center;
+    
+
      
 }
 
@@ -358,11 +392,31 @@ h5 {
 
 .fa-envelope,
 .fa-phone{
-    margin-right: 10%;
+    /*margin-right: 10%;*/
+    padding-right:1rem;
 }
 
 .listContact{
     font-family: 'Mandali', sans-serif;
+}
+
+.h1, h1 {
+    font-size: 2.rem;
+    margin: 31px;
+}
+
+ body > .container{
+     padding-top: 60px;
+ }
+ 
+
+.page-footer font-small{
+    
+    
+}
+
+*, ::after, ::before {
+    box-sizing: border-content;
 }
 
 /* #######################################           Hover Effects           ###########################################*/
@@ -455,3 +509,5 @@ h5 {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+
