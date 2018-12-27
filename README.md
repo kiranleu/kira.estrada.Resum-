@@ -39,7 +39,7 @@ To follow a clear structure I have created links which, when the user clicks on 
         This feature allows the users to access easily and directly to  all Kira's social media.
 
 * Feature 4: Phone Icon
-        When users click on it a box will pop up asking the user if they would like to use Skype to make the phone call.
+        When users click on it a box will pop up asking the user if they would like to use Skype  or FaceTime to make the phone call.
 
 ### Feautures to be Implemented
 
