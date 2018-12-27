@@ -21,6 +21,7 @@
 
 }
 
+
 #buttonNav{
     background-color: white;
     font-size: 0.8rem;
@@ -33,12 +34,15 @@
     
 }
 .navbar {
-    background-color:#212121;
+    
     color: white;
     font-family: 'Mandali', sans-serif;
     font-size: 1rem;
-    padding: 0;
     margin: 0;
+    padding-top: 26px;
+    padding-right: 50px;
+    padding-left: 26px;
+
   
 
 }
@@ -73,6 +77,30 @@ a:hover {
 
 }
 
+.navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 30px;
+  
+}
+
+
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #fff;
+    padding-top: 1px;
+    padding-left: 47px;
+    padding-right: 30px;
+}
+
+.bg-dark {
+    background-color: #212121!important;
+}
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #fff;
+    /* padding-top: 1px; */
+    padding-left: 47px;
+    padding-right: 30px;
+}
 /* #######################################             Body     ###########################################*/
 
 /* All the pages of Website */
@@ -198,8 +226,9 @@ a:hover {
     box-shadow: 0 1px 2px black;
     color:black;
     width: 100%;
-
-    margin-bottom: 100px;}
+    margin-bottom: 100px;
+    
+}
 
 .card.img {
  position: absolute;
