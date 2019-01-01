@@ -38,6 +38,7 @@
     color: white;
     font-family: 'Mandali', sans-serif;
     font-size: 1rem;
+    height: 100px;
     margin: 0;
     padding-top: 26px;
     padding-right: 50px;
@@ -85,12 +86,7 @@ a:hover {
 
 
 
-.navbar-dark .navbar-nav .active>.nav-link{
-    color: #fff;
-    padding-top: 1px;
-    padding-left: 47px;
-    padding-right: 30px;
-}
+
 
 .bg-dark {
     background-color: #212121!important;
@@ -113,7 +109,9 @@ a:hover {
     background-color: #DDDDDD;
 }
 
-
+body{
+    line-height: 0px;
+}
 /***********************HOMEPAGE************************/
 
 .name {
@@ -308,7 +306,7 @@ form{
 .bodyHomepage {
     margin: 0px;
     background: #000;
-    line-height:0;
+    
 }
 
 #bg_container {
