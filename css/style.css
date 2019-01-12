@@ -109,9 +109,7 @@ a:hover {
     background-color: #DDDDDD;
 }
 
-body{
-  
-}
+
 /***********************HOMEPAGE************************/
 
 .name {
@@ -390,15 +388,11 @@ footer{
     padding-top: 20px;
     padding-left: 1rem;
     padding-right: 1rem;
-   /* position: fixed;*/
     left: 0;
     bottom: 0;
     width: 100%;
     color: grey;
     text-align: center;
-    
-
-     
 }
 
 
@@ -419,7 +413,7 @@ h5 {
 
 .fa-envelope,
 .fa-phone{
-    /*margin-right: 10%;*/
+   
     padding-right:1rem;
 }
 
