@@ -101,6 +101,7 @@ a:hover {
 
 /* All the pages of Website */
 
+
 .bodyAboutMe,
 .bodyPortfolio,
 .bodySkills, 
@@ -307,12 +308,17 @@ form{
     
 }
 
+body.bodyHomepage{
+     line-height: 0.5;
+}
+
 #bg_container {
     position: relative;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     margin: 0px;
+    line-height: 0.5;
    
 }
 
@@ -342,6 +348,22 @@ form{
     margin: 10px 60px 0px;
     
 }
+
+.likeh1{
+    font-size: 50px;
+    margin: 40px;
+}
+
+.alink {
+    color: black;
+}
+
+.buttonC{
+    font-size: 30px;
+    color: black;
+    
+}
+
 
 /************************SKILLS*******************/
 
