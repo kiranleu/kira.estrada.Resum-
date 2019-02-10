@@ -1,6 +1,7 @@
 # Kira Estrada Resumé
  
  It is a website to advertise the summary of skills, abilities and accomplishments that Kira Estrada has developed until now.
+
  
 ## UX
  
@@ -16,9 +17,9 @@
  
  This mockups are showing how the Resumé will look on different viewports:
  
- 1. Desktop:  resumeDesktop.pdf
+ 1. Desktop
  2. Mobile Phone
- 3. Tablet
+
 
 All the design process was developed paying attention to the User Experience.  Making sure that the users' experience is as positive as posible, easy to follow and well structured.
 
@@ -33,7 +34,7 @@ To follow a clear structure I have created links which, when the user clicks on 
     Allows the user to get to the Home page at all the times.
 
 * Feature 2: Dowload CV button
-        Allows users to preview Kira's CV in a pdf file.
+        Allows users to preview Kira's CV in a pdf file and download the CV if they like that.
 
 * Feature 3:  Social Media Icons
         This feature allows the users to access easily and directly to  all Kira's social media.
@@ -58,7 +59,7 @@ To construct this project i have used:
 * CSS:
     Style sheet linked it through Html so will allow the style of all the pages.
 * HOVER.CSS:
-    I have used some hover effect provided throu this.
+    I have used some hover effects provided throu this.
 * LIBRARIES:
         The libraries that have been used within the project are: Bootstrap and JQUERY  
         Mainly I have used Bootstrap for layout grid, different viewport responsiveness, forms and progress bars.
@@ -71,7 +72,7 @@ To construct this project i have used:
 * _Links_
  All the links included in the website have been tested and they are all working.
 * _Hover_
-    Hover effects on icons, links and cards have been tested and they al change color or have a hover effect working as expected.
+    Hover effects on icons, links and cards have been tested and they all change color or have a hover effect working as expected.
 * _Responsive_
     The website has been tested in different viewports and it is responsive.
 
@@ -83,11 +84,11 @@ The website has been deployed using GitHub pages.
 
 ### Content
 
-The text from the section About Me has been copied from Kira link in profile and jobbio Cv.
+The text from the section About Me has been copied from Kira linked in profile and jobbio Cv.
   
 ### Media
 
-All images have been obtained through diferent seraches throug Google in www.google.com
+All images have been obtained through diferent seacrhes throug Google in www.google.com
 
 ### Acknowledgements
 
