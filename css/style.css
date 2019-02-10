@@ -341,6 +341,22 @@ body.bodyHomepage{
     text-shadow: #000 2px 2px;
 }
 
+.form-group{
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    line-height:1.3em;
+}
+
+
+
+.pContact {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 25px;
+    margin-left: 4.7rem;
+    margin-top: 2rem;
+    line-height: 90px;
+}
 /**************************ABOUT ME****************/
 
 .myPict{
