@@ -111,6 +111,7 @@ a:hover {
 }
 
 
+
 /***********************HOMEPAGE************************/
 
 .name {
@@ -159,7 +160,7 @@ a:hover {
 #buttonC {
     margin-bottom: 32px;
     margin-left: 50px;
-    height: 10;
+    height: 10px;
     border-color: black;
 }
 
@@ -202,7 +203,7 @@ a:hover {
     width: 100%;
     height: 0px;
     
-    
+  
 }
 
 
@@ -371,8 +372,8 @@ body.bodyHomepage{
 
 .card{
         padding-bottom: 5rem;
-        height: 128px;
-    width: 10;
+        height: auto;
+        width: 10;
 }
 
 .superContainer .col-sm-3{
@@ -552,3 +553,9 @@ h5 {
 }
 
 
+#_skills{
+    
+    padding-top:60px;
+    width: auto;
+    line-height: 3em;
+}
