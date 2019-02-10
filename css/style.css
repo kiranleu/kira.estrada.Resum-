@@ -416,7 +416,7 @@ footer{
     padding-right: 1rem;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: auto;
     color: grey;
     text-align: center;
 }
@@ -452,15 +452,9 @@ h5 {
     margin: 31px;
 }
 
- body > .container{
-     padding-top: 60px;
- }
- 
 
-.page-footer font-small{
-    
-    
-}
+
+
 
 *, ::after, ::before {
     box-sizing: border-content;
